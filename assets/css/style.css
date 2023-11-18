@@ -4,6 +4,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ body,html{
+  overflow-x: hidden;
+ }
 .container,
 .container-fluid,
 .container-sm,
@@ -5738,7 +5741,7 @@
   margin-right: auto;
   margin-left: auto; }
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
   .custom-container {
     max-width: 300px; } }
 
@@ -5760,7 +5763,7 @@
 
 @media (min-width: 1199.98px) {
   .custom-container {
-    max-width: 1140px; } }
+    max-width: 1140px; } } */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
